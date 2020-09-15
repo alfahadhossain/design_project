@@ -1,0 +1,111 @@
+/* START NAVBAR SECTION*/
+:focus {
+    outline: 0 !important;
+}
+nav {
+    background: #000;
+}
+.nav-item {
+    margin-right: 20px;
+}
+.nav-item:last-child {
+    margin-right: 0px;
+}
+/* END NAVBAR SECTION */
+
+/* START CAROUSEL SECTION */
+.carousel-item {
+    height: 450px;
+}
+.carousel-img-1 {
+    background: url("photos/carousel-1.jpg");
+    background-size: cover;
+}
+.carousel-img-2 {
+    background: url("photos/carousel-2.jpg");
+    background-size: cover;
+}
+.carousel-img-3 {
+    background: url("photos/carousel-3.jpg");
+    background-size: cover;
+}
+/* END CAROUSEL SECTION */
+
+/* START WORK-BOX SECTION */
+.work-content i {
+    font-size: 50px;
+}
+/* END WORK-BOX SECTION */
+
+/* START READY SEART SECTION */
+#ready-section {
+    background: url("photos/bg-girl.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ready-inner {
+    background: rgba(0, 0, 0, 0.5);
+}
+.ready-content {
+    padding: 50px;
+}
+/* END READY START SECTION */
+
+/* START HOME-INFO SECTION  */
+/* END HOME-INFO SECTION */
+
+/* START Home video section */
+#home-video-section {
+    background: url("photos/fish.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.dark-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.home-content .fa {
+    font-size: 50px;
+    color: red;
+}
+/* END HOME VIDEO SECTION */
+
+/* START IMAGE GLARRY SECTION */
+#image-gallery-section img {
+    width: 100%;
+    height: 250px;
+}
+/* END IMAGE GLARRY SECTION */
+
+/* START SIGN UP SECTION */
+/* END SIGN UP SECTION */
+
+/* START COPYRIGHT SECTION */
+#copyright-section {
+    background: #000;
+}
+
+/* #################
+ABOUT SECTION
+################# */
+
+#about-box-section .fa {
+    font-size: 40px;
+}
+#testimonial-section .slick-prev::before,
+.slick-next::before {
+    color: #000;
+}
+
+/* BLOG PAGE */
+.blog-post-section .card-header img {
+    height: 200px;
+    width: 100%;
+}
+
+/* CONTECT PAGE */
+#contect-body-section .card-body p {
+    margin-top: 0px;
+}
